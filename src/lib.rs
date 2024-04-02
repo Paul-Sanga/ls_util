@@ -10,7 +10,7 @@ mod tests;
 
 #[derive(Debug, Parser)]
 pub struct List {
-    #[arg(short, long, value_name = "FILE PATH")]
+    #[arg(short, long, value_name = "DIR PATH")]
     dir_path: Option<PathBuf>,
 }
 
